@@ -8,7 +8,8 @@
   <img src="https://img.shields.io/badge/license-MIT-green" />
 </p>
 
-[![Open in Streamlit](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://your-app-url.streamlit.app/)
+[![Open in Streamlit](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://fbarquez-nlp-sentiment-analysis.streamlit.app/)
+
 
 [![GitHub Repo](https://img.shields.io/badge/Repository-GitHub-blue?logo=github)](https://github.com/fbarquez/nlp-sentiment-analysis)
 
