@@ -9,8 +9,8 @@ nltk.download('stopwords')
 stop_words = set(stopwords.words('english'))
 
 # Load model and vectorizer
-model = joblib.load('../models/nb_model.pkl')
-vectorizer = joblib.load('../models/tfidf_vectorizer.pkl')
+model = joblib.load('models/nb_model.pkl')
+vectorizer = joblib.load('models/tfidf_vectorizer.pkl')
 
 # Text preprocessing
 def clean_text(text):
