@@ -31,6 +31,32 @@ In this case, we simplify the problem to a **binary classification** task:
 
 ---
 
+## about the IMDb Dataset
+
+The IMDb dataset used in this project is a collection of 50,000 movie reviews labeled as either positive or negative.
+
+### Features:
+
+* Two columns:
+
+  * review : User-submitted movie review (raw text).
+  * sentiment: Label (positive or negative).
+
+* Balanced dataset: 25,000 positive and 25,000 negative reviews.
+
+* Real-world text: Includes slang, punctuation, and informal writing.
+
+### Why it Matters:
+
+* Ideal for supervised learning tasks like binary classification.
+
+* Frequently used in NLP benchmarks for model comparison.
+
+* Provides natural examples of human opinion, useful for generalizing to real-life tasks.
+
+You can find the original dataset on [Kaggle](https://www.kaggle.com/datasets/lakshmi25npathi/imdb-dataset-of-50k-movie-reviews), or use the preprocessed version already included in this repository under the `/data` directory as `IMDB Dataset.csv`.
+
+
 ## Step-by-Step Guide
 
 This section explains what each part of the pipeline does and why it's necessary.
